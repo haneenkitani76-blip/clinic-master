@@ -1,0 +1,29 @@
+
+:root{
+    --mainfont:font-family: "Sansita", sans-serif;
+    --primarycolor:#227675;
+}
+
+
+.primary-color{
+    color:var(--primarycolor);
+}
+
+
+.custom-btn {background-color: #82B440;
+color: white;
+0 20px
+}
+.custombtn-btn{background-color: var(--primarycolor);
+   color: white;
+   padding: 14px 25px;
+border-radius: 30px;}
+
+.navbar-nav li svg path{
+    fill: white;
+}
+
+.navbar-nav .nav-link {font-size: 18px;
+color: #FFFFFF;}
+
+.navbar-nav .nav-link:hover{color: var(--primarycolor);}
