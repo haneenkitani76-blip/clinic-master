@@ -27,3 +27,28 @@ border-radius: 30px;}
 color: #FFFFFF;}
 
 .navbar-nav .nav-link:hover{color: var(--primarycolor);}
+
+
+.hero{
+    background-image: url("./../img/puplic/hero\ photo.jpg");
+    background-position: center;
+      background-size: cover;
+}
+.hero h2{color: white;
+font-size: 50px;}
+.hero p{color: white;
+font-size: 20px;}
+.hero button{ color:white;
+background-color: var(--primarycolor);
+padding:  14px 30px;
+border-radius: 30px;
+position: relative;
+}
+
+.hero button::after {
+content: "➜";
+width: 15px;
+height: 10px;
+position: absolute;
+right: 10px;
+}
