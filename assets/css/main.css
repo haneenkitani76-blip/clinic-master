@@ -1,6 +1,6 @@
 
 :root{
-    --mainfont:font-family: "Sansita", sans-serif;
+    --mainfont:font-family:  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --primarycolor:#227675;
 }
 
@@ -36,13 +36,16 @@ color: #FFFFFF;}
 }
 .hero h2{color: white;
 font-size: 50px;}
+
 .hero p{color: white;
 font-size: 20px;}
+
 .hero button{ color:white;
 background-color: var(--primarycolor);
 padding:  14px 30px;
 border-radius: 30px;
 position: relative;
+
 }
 
 .hero button::after {
@@ -51,4 +54,36 @@ width: 15px;
 height: 10px;
 position: absolute;
 right: 10px;
+}
+
+
+.about-images{
+position: relative;
+
+}
+.main-img{width: 100%;
+border-radius: 20px;}
+
+.small-img{
+ position: absolute;
+ top:30%;
+ right:-70px;
+ border-radius: 20px;
+ 
+}
+
+
+.about-content button{color: white;
+background-color: var(--primarycolor);
+padding: 14px 25px;
+border-radius: 30px;
+position: relative;
+}
+
+.about-content button::after{
+content: "➜";
+width: 15px;
+height: 10px;
+position: absolute;
+right: 5px;
 }
