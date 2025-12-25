@@ -8,6 +8,8 @@
 .primary-color{
     color:var(--primarycolor);
 }
+ 
+.back-ground{background-color: var(--primarycolor);}
 
 
 .custom-btn {background-color: #82B440;
@@ -123,4 +125,4 @@ color: var(--primarycolor);
   background-color:var(--primarycolor);
     display: flex; 
 align-items: center; 
-justify-content: center;  }
+justify-content: center;}
