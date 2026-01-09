@@ -8,7 +8,6 @@
 .primary-color{
     color:var(--primarycolor);
 }
- 
 .back-ground{background-color: var(--primarycolor);}
 
 
@@ -24,7 +23,7 @@ border-radius: 30px;}
 .navbar-nav li svg path{
     fill: white;
 }
-
+.
 .navbar-nav .nav-link {font-size: 18px;
 color: #FFFFFF;}
 
@@ -126,3 +125,12 @@ color: var(--primarycolor);
     display: flex; 
 align-items: center; 
 justify-content: center;}
+
+.img-skills{ border-radius: 18px;
+  box-shadow: 10px 30px rgba(0, 0, 0 ,0.08);
+}
+
+ .Appointment-buttun{ background-color: var(--primarycolor);
+color: white;
+padding: 14px 30px;
+border-radius: 30px;}
